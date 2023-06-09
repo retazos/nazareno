@@ -1,90 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="sharebootstrap.com" />
-        <meta name="description" content="free bootstrap template by sharebootstrap.com">
-        <link rel="canonical" href="https://sharebootstrap.com" />
-        <title>Minimal portfolio by ShareBootstrap.com</title>
-        <!-- Bootstrap core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Fontaweome icons replacment -->
-        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
-        <!-- Theme styles for this template -->
-        <link href="css/style.css" rel="stylesheet">
-        <!-- Your Custom styles for this template -->
-        <link href="css/custom.css" rel="stylesheet"> </head>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="sharebootstrap.com" />
+    <meta name="description" content="free bootstrap template by sharebootstrap.com">
+    <link rel="canonical" href="https://sharebootstrap.com" />
+    <title>N A Z A R E N O</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontaweome icons replacment -->
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+    <!-- Theme styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Your Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet"> </head>
 
-    <body>
-        <div id="preloader">
-            <div id="loader"></div>
-        </div>
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3" id="mainNav">
-            <div class="container"> <a class="navbar-brand js-scroll-trigger" href="index.html">Retazos de Devoción</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html">Home</a> </li>
-                        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="project.html">Work</a> </li>
-                        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a> </li>
-                    </ul>
-                </div>
+<body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3" id="mainNav">
+        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html">Nazareno</a> </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="project.html">Creadora</a> </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="contact.html">Contacto</a> </li>
+                </ul>
             </div>
-        </nav>
-    <header class="space-md">
+        </div>
+    </nav>
+    <header>
         <div class="container">
             <div class="row d-flex align-content-center">
-                <div class="col-md-6">
-                    <div class="headline mt-0 mb-0">
+                <div class="col-md-7">
+                    <div class="headline">
                         <div class="headline-content">
-                            <h1 class="headline-title display-3">Los Patrones de la Fiesta de Jesús Nazareno.</h1>
-                            <p class="headline-subtitle">Patrón.</p>
+                            <h1 class="headline-title display-3">Imagenes de la Fiesta de Jesús Nazareno</h1>
+                            <p class="headline-subtitle">Repositorio de la Fiesta del Nazareno de Cahuach.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <p class="lead mt-3"> Los Patrones son bla bla bla</p>
-                    <p class="lead">in purpose; while external audiences (partners in particular) take notice, with a far higher likelihood of remembering the organisation and what they stand for. </p>
                 </div>
             </div>
         </div>
     </header>
+    <!-- end: Header -->
     <section class="space-md">
-        <div class="container">
-            <figure> <img src="img/DSC04861.JPG" alt="" class="img-fluid"> </figure>
-            <div class="row d-flex justify-content-start space-md">
-                <div class="col-md-2">
-                    <ul class="list-unstyled project-intro">
-                        <li class="title">What We Did</li>
-                        <li>Branding</li>
-                        <li>Website Design</li>
-                        <li>Website Development</li>
-                        <li>illustration</li>
-                    </ul>
-                </div>
-                <div class="col-md-7 offset-md-1">
-                    <p class="h4"> In an industry where so many brands look and sound quite similar, offering something bold and distinctive ensures; internal audiences have a proud symbol to rally behind, empowering staff to be confident and singular</p>
-                </div>
+        <!-- portfolio -->
+        <div id="portfolio" class="container">
+            <div id="portfolio-filters">
+                <ul id="filters" class="p-0">
+                    <li><a href="*" class="active">Todo</a></li>
+                    <li><a href=".digital">Materialidad</a></li>
+                    <li><a href=".branding">Personas</a></li>
+                    <li><a href=".campaigns">Ritos</a></li>
+                </ul>
             </div>
-            
-
-            <div class="row space-md">
-                <div class="col-md-8">
-                    <h3>Gets pretty deep but they also know how to have a good time, so we imagined a refreshing and fun visual representation of their decentralized world.</h3> </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <figure> <img src="img/DSC01448.jpg" alt="" class="img-fluid"> </figure>
+            <div class="grid" data-cols="3" data-margin="30" data-height="1" data-masonry='{ "columnWidth": 200, "itemSelector": ".entry" }'>
+                <!-- entry -->
+                <div class="entry work-entry branding">
+                    <a href="vestimenta.html">
+                        <div class="entry-image imageBG" data-img="img/DSC01256.jpg "></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">La Vestimenta</div>
+                                <div class="work-entry-cat"></div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-6">
-                    <figure> <img src="img/photo-1558180702-95f1c3ae2ca3.jpg" alt="" class="img-fluid"> </figure>
+                <!-- end:entry -->
+                <div class="entry work-entry digital">
+                    <a href="patrones.html">
+                        <div class="entry-image imageBG" data-img="img/DSC01265.jpg "></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Los Patrones</div>
+                                <div class="work-entry-cat"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry campaigns">
+                    <a href="iglesia.html">
+                        <div class="entry-image imageBG" data-img="img/DSC01220.jpg "></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">La Iglesia</div>
+                                <div class="work-entry-cat"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry branding">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/DSC02079.JPG "></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Las Imágenes</div>
+                                <div class="work-entry-cat"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                 <div class="entry work-entry campaigns digital branding w2">
+                    <a href="cincopueblos.html">
+                        <div class="entry-image imageBG" data-img="img/DSC01962.JPG"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Los Cinco Pueblos</div>
+                                <div class="work-entry-cat"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry branding digital">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1557941760-987c3f403d5a.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Pine Street</div>
+                                <div class="work-entry-cat">Web + Digital</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry digital">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1534073828943-f801091bb18c.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Mobipaid</div>
+                                <div class="work-entry-cat">Branding</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry brading">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1484755560615-a4c64e778a6c.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Solo Solution</div>
+                                <div class="work-entry-cat">Logo</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry digital campaigns">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1494253109108-2e30c049369b.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Panic web</div>
+                                <div class="work-entry-cat">Branding Campaign</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry branding digital">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1436262513933-a0b06755c784.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Solocademy</div>
+                                <div class="work-entry-cat">Web design + Branding</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                <div class="entry work-entry campaigns digital h2">
+                    <a href="project.html">
+                        <div class="entry-image imageBG" data-img="img/photo-1494475673543-6a6a27143fc8.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Soulart</div>
+                                <div class="work-entry-cat">Marketing</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+               
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
+        <!-- /end:portfolio -->
     </section>
     <!-- footer -->
     <footer class="footer pb-5">
